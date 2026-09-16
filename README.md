@@ -1,5 +1,4 @@
-# Health Analytics
-
+# injured children analytics 2025
 Analyzes patient demographic data and visualizes trends by region, facility, department, and nationality over time.
 
 ## Background
