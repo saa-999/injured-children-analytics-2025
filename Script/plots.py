@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 from  Script.Patient_demographics  import Patient_demographics 
-
+import pandas as pd 
 
 
 class Plots:
@@ -57,5 +57,25 @@ class Plots:
         plt.pie(size , labels=labels , colors=colors , autopct='%1.1f%%' , startangle=90)
         plt.title("Percentage of Patients by Gender and Nationality", fontweight='bold')
         plt.axis('equal')
+        plt.show()
+
+    @staticmethod
+    def plot_wounded_distribution(patient_data: Patient_demographics) -> None:
+
+        v_dict = patient_data.NumberOfWoundedMonthFacilityDistribution
+
+        data_series = pd.Series(v_dict)
+
+        df_plot = data_series.unstack(1).fillna(0)
+
+        df_plot.plot(kind='bar', stacked=True, figsize=(14, 7), colormap='Set1')
+    
+
+        plt.title("Wounded Distribution by Month, Facility, and Nationality", fontsize=14, fontweight='bold')
+        plt.xlabel("(Month, Facility)", fontsize=12)
+        plt.ylabel("Number of Patients", fontsize=12)
+        plt.xticks(rotation=45, ha='right')
+
+        plt.tight_layout()
         plt.show()
 
