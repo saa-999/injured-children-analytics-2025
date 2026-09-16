@@ -1,0 +1,55 @@
+Saudi Arabia Open Data License
+
+This project uses data published under the Saudi Arabia Open Data License,
+issued by the Saudi Data and AI Authority (SDAIA) through the National
+Open Data Portal (https://open.data.gov.sa).
+
+Terms and Conditions
+====================
+
+By using datasets obtained from the National Open Data Portal, the user
+agrees to the following terms:
+
+1. PERMITTED USE
+   Users are free to use, share, modify, and reuse government datasets
+   published on the portal, provided they comply with the conditions
+   stated in this license.
+
+2. ATTRIBUTION AND NOTICES
+   - A copy of this Open Data License must be included with the dataset
+     or any derivative dataset, including in any relevant documentation.
+   - All copyright and dataset right notices that refer to the Open Data
+     License must be kept intact.
+   - If the file structure prevents including these notices directly in
+     the file, they must be placed in a location (such as a relevant
+     directory) where users are likely to look.
+
+3. PROHIBITED USES
+   The data must NOT be used:
+   - For political purposes.
+   - To support illegal or criminal activity.
+   - For racist or discriminatory expressions.
+   - To negatively influence culture or equality, or to provoke any
+     behavior that is illegal or contrary to the customs and traditions
+     of the Kingdom of Saudi Arabia.
+
+4. DISCLAIMER
+   - The license applies to the dataset as a whole but does not
+     automatically cover individual content elements like images, audio,
+     or video, which may have additional separate licenses.
+   - The government entity providing the data is not liable for any
+     damage or loss resulting from the use of the published data.
+   - The data is provided "as is," and there is no guarantee regarding
+     the continued availability or permanent nature of the datasets,
+     which may be updated or removed periodically.
+
+Data Source
+==========
+
+Dataset: King Faisal Specialist Hospital and Research Centre (KFSH&RC) -
+         Patient Demographics Data
+Portal:  https://open.data.gov.sa
+Dataset URL: https://open.data.gov.sa/ar/datasets/view/f950475c-ac6b-4f34-8f29-df56c231c55e/resources
+License URL: https://open.data.gov.sa/odp-public/static/ar/assets/Open_Data_License_Ar.pdf
+
+For the full Arabic text of the Open Data License, visit the License URL above.
